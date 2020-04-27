@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1822584D2456B57000D8C3E9 /* SearchingAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822584C2456B57000D8C3E9 /* SearchingAlgorithms.swift */; };
+		1822584F2456CFAC00D8C3E9 /* SortingAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822584E2456CFAC00D8C3E9 /* SortingAlgorithms.swift */; };
 		1828D3F7244EEC4900708139 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1828D3F6244EEC4900708139 /* AppDelegate.swift */; };
 		1828D3F9244EEC4900708139 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1828D3F8244EEC4900708139 /* SceneDelegate.swift */; };
 		1828D3FB244EEC4900708139 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1828D3FA244EEC4900708139 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1822584C2456B57000D8C3E9 /* SearchingAlgorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingAlgorithms.swift; sourceTree = "<group>"; };
+		1822584E2456CFAC00D8C3E9 /* SortingAlgorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingAlgorithms.swift; sourceTree = "<group>"; };
 		1828D3F3244EEC4900708139 /* Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1828D3F6244EEC4900708139 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1828D3F8244EEC4900708139 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 			children = (
 				1828D3F6244EEC4900708139 /* AppDelegate.swift */,
 				1828D3F8244EEC4900708139 /* SceneDelegate.swift */,
+				1822584C2456B57000D8C3E9 /* SearchingAlgorithms.swift */,
+				1822584E2456CFAC00D8C3E9 /* SortingAlgorithms.swift */,
 				1828D3FA244EEC4900708139 /* ViewController.swift */,
 				1828D3FC244EEC4900708139 /* Main.storyboard */,
 				1828D3FF244EEC4B00708139 /* Assets.xcassets */,
@@ -140,7 +146,9 @@
 			files = (
 				1828D3FB244EEC4900708139 /* ViewController.swift in Sources */,
 				1828D3F7244EEC4900708139 /* AppDelegate.swift in Sources */,
+				1822584D2456B57000D8C3E9 /* SearchingAlgorithms.swift in Sources */,
 				1828D3F9244EEC4900708139 /* SceneDelegate.swift in Sources */,
+				1822584F2456CFAC00D8C3E9 /* SortingAlgorithms.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
