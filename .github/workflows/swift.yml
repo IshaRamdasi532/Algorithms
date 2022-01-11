@@ -9,12 +9,12 @@ on:
 jobs:
   build:
 
-    runs-on: macos-latest
+    runs-on: linux
 
     steps:
     - uses: actions/checkout@v2
     - name: Increment Semantic Version
       uses: christian-draeger/increment-semantic-version@1.0.2
       with:
-        current-version: '1.0.0' 
+        current-version: 'v1.0.0' 
         version-fragment: 'alpha'
