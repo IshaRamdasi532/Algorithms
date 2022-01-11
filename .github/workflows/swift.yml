@@ -16,5 +16,5 @@ jobs:
     - name: Increment Semantic Version
       uses: christian-draeger/increment-semantic-version@1.0.2
       with:
-        current-version: '1.0.0' 
+        current-version: '1.0.0-alpha0' 
         version-fragment: 'alpha'
