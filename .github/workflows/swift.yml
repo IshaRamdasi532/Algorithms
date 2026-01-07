@@ -9,7 +9,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
 
     steps:
     - uses: actions/checkout@v2
@@ -18,6 +18,8 @@ jobs:
       with:
         current-version: '1.0.0-alpha0' 
         version-fragment: 'alpha'
+    - name: Select Xcode version
+      run: sudo xcode-select -switch /Applications/Xcode_15.2.app/Contents/Developer
     - name: xcode-build
       run: |
         xcodebuild clean build -project Algorithms.xcodeproj -scheme Algorithms -destination 'platform=iOS Simulator,name=iPhone 15,OS=17.2' | xcpretty
