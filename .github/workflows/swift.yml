@@ -13,11 +13,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Increment Semantic Version
-      uses: christian-draeger/increment-semantic-version@1.0.2
-      with:
-        current-version: '1.0.0-alpha0' 
-        version-fragment: 'alpha'
+    # - name: Increment Semantic Version
+    #   uses: christian-draeger/increment-semantic-version@1.0.2
+    #   with:
+    #     current-version: '1.0.0-alpha0' 
+    #     version-fragment: 'alpha'
     - name: Select Xcode version
       run: sudo xcode-select -switch /Applications/Xcode_15.2.app/Contents/Developer
     - name: xcode-build
